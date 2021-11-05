@@ -2,7 +2,6 @@
 
 import java.util.Scanner;
 
-public static void Methods(String[] args){
 
 public class Methods {
     public static void calcGPA() {
@@ -35,7 +34,6 @@ public class Methods {
         System.out.println("Your GPA is " + newGPA);
     }
 }
-}
 
 public static void newLine(){
     System.out.println();
@@ -45,6 +43,35 @@ public static void threeLine(){
     newLine();
     newLine();
     newLine();
+}
+
+//Parameters and arguments
+public static void assignLunch(int gradeLevel){
+    String lunchPeriod;
+
+    if (gradeLevel == 9) {
+        lunchPeriod = "First Lunch";
+        System.out.print("This student has ");
+        System.out.println(lunchPeriod);
+    } else if (gradeLevel == 10) {
+        lunchPeriod = "Second Lunch";
+        System.out.print("This student has ");
+        System.out.println(lunchPeriod);
+    } else if (gradeLevel == 11) {
+        lunchPeriod = "Third Lunch";
+        System.out.print("This student has ");
+        System.out.println(lunchPeriod);
+    } else {
+        lunchPeriod = "Off Campus Lunch";
+        System.out.print("This student has ");
+        System.out.println(lunchPeriod);
+    }
+}
+
+public static void main(String[] args){
+    System.out.println("Tahm Kench");
+    threeLine();
+    System.out.println("We meet again, fiddlesticks");
 }
 
 
