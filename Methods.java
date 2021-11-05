@@ -69,9 +69,13 @@ public static void assignLunch(int gradeLevel){
 }
 
 public static void main(String[] args){
+    /*
     System.out.println("Tahm Kench");
     threeLine();
     System.out.println("We meet again, fiddlesticks");
+    */
+
+    assignLunch(9);
 }
 
 
