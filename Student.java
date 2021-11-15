@@ -98,6 +98,31 @@ public static void assignLunch(int gradeLevel) {
     }
 }
 
+public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
+    String lunchPeriod;
+    // Boolean AND, OR, NOT
+    // && -- AND
+    // || -- OR
+    // ! - NOT
+
+    if (gradeLevel == 9 || gradePointAvg <= 1.5) {
+        lunchPeriod = "First Lunch";
+        System.out.print("This student has ");
+        System.out.println(lunchPeriod);
+    } else if (gradeLevel == 10 && gradePointAvg > 2.0) {
+        lunchPeriod = "Second Lunch";
+        System.out.print("This student has ");
+        System.out.println(lunchPeriod);
+    } else if (gradeLevel == 11 && gradePointAvg != 0) {
+        lunchPeriod = "Third Lunch";
+        System.out.print("This student has ");
+        System.out.println(lunchPeriod);
+    } else {
+        lunchPeriod = "Off Campus Lunch";
+        System.out.print("This student has ");
+        System.out.println(lunchPeriod);
+    }
+}
 public static void main(String[] args) {
     /*
     System.out.println("Tahm Kench");
