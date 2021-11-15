@@ -113,7 +113,7 @@ public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
         lunchPeriod = "Second Lunch";
         System.out.print("This student has ");
         System.out.println(lunchPeriod);
-    } else if (gradeLevel == 11 && gradePointAvg != 0) {
+    } else if (gradeLevel == 11 && (gradePointAvg != 0.0)) {
         lunchPeriod = "Third Lunch";
         System.out.print("This student has ");
         System.out.println(lunchPeriod);
@@ -131,6 +131,8 @@ public static void main(String[] args) {
     */
 
     assignLunch(9);
+    assignLunchMultiple(10, 1.5);
+    assignLunchMultiple(11, 0.2);
     }
 }
 
