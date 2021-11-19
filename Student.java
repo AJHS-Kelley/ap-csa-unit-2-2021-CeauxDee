@@ -128,7 +128,9 @@ public static void mathPractice(){
     int x;
     int y;
     Scanner myScanner = new Scanner(System.in);
+    System.out.println("Please insert a number ");
     x = myScanner.nextInt();
+    System.out.println("Please insert a number ");
     y = myScanner.nextInt();
     System.out.println(Math.min(x, y));
     int lowest;
@@ -146,6 +148,7 @@ public static void main(String[] args) {
     assignLunch(9);
     assignLunchMultiple(10, 1.5);
     assignLunchMultiple(11, 2.2);
+    mathPractice();
     }
 }
 
