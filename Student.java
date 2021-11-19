@@ -132,7 +132,7 @@ public static void main(String[] args) {
 
     assignLunch(9);
     assignLunchMultiple(10, 1.5);
-    assignLunchMultiple(11, 0.2);
+    assignLunchMultiple(11, 2.2);
     }
 }
 
