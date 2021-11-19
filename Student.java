@@ -136,6 +136,21 @@ public static void mathPractice(){
     int lowest;
     lowest = Math.min(x, y);
     System.out.println(lowest);
+
+    //Calling exponential now
+
+    double power = Math.pow(x, y);
+    System.out.println(power);
+
+    //Calling random
+
+    double percentage = (Math.random() * 100);
+    System.out.println(percentage);
+    System.out.println("There is a " + percentage + " percent chance it will rain today.");
+
+    //Rounding the percentage
+    double roundedPercent = Math.floor(percentage);
+    System.out.println("Rounded, that is a " + roundedPercent + " percent chance it will rain today.");
 }
 
 public static void main(String[] args) {
