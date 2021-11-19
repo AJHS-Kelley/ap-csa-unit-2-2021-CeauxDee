@@ -125,7 +125,15 @@ public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
 }
 
 public static void mathPractice(){
-    
+    int x;
+    int y;
+    Scanner myScanner = new Scanner(System.in);
+    x = myScanner.nextInt();
+    y = myScanner.nextInt();
+    System.out.println(Math.min(x, y));
+    int lowest;
+    lowest = Math.min(x, y);
+    System.out.println(lowest);
 }
 
 public static void main(String[] args) {
