@@ -123,11 +123,16 @@ public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
         System.out.println(lunchPeriod);
     }
 }
+
+public static void mathPractice(){
+    
+}
+
 public static void main(String[] args) {
     /*
     System.out.println("Tahm Kench");
     threeLine();
-    System.out.println("We meet again, fiddlesticks");
+    System.out.println("Fiddlesticks");
     */
 
     assignLunch(9);
