@@ -161,6 +161,8 @@ public static void mathPractice(){
 
         double fakeGPA;
         fakeGPA = (grade0 + grade1 + grade2);
+
+        return fakeGPA;
     }
 public static void main(String[] args) {
     /*
@@ -169,11 +171,18 @@ public static void main(String[] args) {
     System.out.println("Fiddlesticks");
     */
 
-    assignLunch(9);
+    /*assignLunch(9);
     assignLunchMultiple(10, 1.5);
     assignLunchMultiple(11, 2.2);
     mathPractice();
+    */
+    double realGPA;
+    realGPA = -1.0;
+    System.out.println(realGPA);
+    realGPA = getGPA();
+    System.out.println(realGPA);
     }
 }
+
 
 
