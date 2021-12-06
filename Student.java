@@ -160,7 +160,7 @@ public static void mathPractice(){
         grade2 = 98;
 
         double fakeGPA;
-        fakeGPA = (grade0 + grade1 + grade2);
+        fakeGPA = (grade0 + grade1 + grade2) / 3.0;
 
         return fakeGPA;
     }
