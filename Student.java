@@ -152,7 +152,16 @@ public static void mathPractice(){
     double roundedPercent = Math.floor(percentage);
     System.out.println("Rounded, that is a " + roundedPercent + " percent chance it will rain today.");
 }
+    public static double getGPA() {
+        int grade0, grade1, grade2;
 
+        grade0 = 75;
+        grade1 = 44;
+        grade2 = 98;
+
+        double fakeGPA;
+        fakeGPA = (grade0 + grade1 + grade2);
+    }
 public static void main(String[] args) {
     /*
     System.out.println("Tahm Kench");
